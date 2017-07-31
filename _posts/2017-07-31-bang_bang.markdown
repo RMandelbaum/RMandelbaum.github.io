@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Bang Bang!!"
+date:   2017-07-31 14:49:32 +0000
+---
+
+
+This past week, I finally had time to join a local meetup with several new coders. It was great being able to chat with others, and swap coding challenges, and solutions. While sitting next to all my new coder friends, I saw this line of code that puzzled me.
+
+```
+!!count_down_setup
+```
+
+I've worked with the bang operator, but never really used the double bang operator. Turns out it's another method to determine truthiness. Later that day, I went over my notes on Booleans, and reviewed what makes something truthy or falsey in Ruby. In Ruby only false and nil are falsey. Everything else is truthy. A bit further down my page, I realized I had actually written down something about this double bang operator. 
+
+> The double bang operator (!!) will return `true` or `false` based on whether a value is thruthy or falsey to begin with.
+> 
+
+
+Alright, but why use this method of a double negative. There has to be a better way to return something as true or false. After researching a bit online, I learned that it is used on a non-boolean piece of code, to turn it into a boolean so it returns either true or false, rather than return the original value. The first `!` will return a negated boolean value, so by adding `!!` the return value will now be the correct boolean value. 
+
+This is why I love meeting other new coders. I would have completely skipped over the reasoning behind the double bang method, but instead it jumped out at me. 
+
