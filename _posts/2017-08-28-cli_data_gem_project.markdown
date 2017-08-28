@@ -7,11 +7,11 @@ date:   2017-08-28 17:15:31 -0400
 
 I'm almost done with Object Oriented Ruby and SLOWLY making my way through the final projects. Everything I have learned so far is coming together in these last few projects, and it's CLI Data Gem Project time. 
 
-**Starting A Project **
+**Starting a Project**
 
-I'm sitting at a blank screen trying to decide where to begin. Usually, each project is extremely structured, but now I've got all this freedom, with too many options. I have to write a CLI Gem application from scratch, and that cursor just keeps blinking. I need to start somewhere, so I go with what is most familiar to me: English. Let's write out what I need to do and then "simply" change it into code. I know I need to create a cli that prompts a user with some sort of list, and let's them choose to view more information based on their input. I also know that I'm basing my project off a CLI Gem, so I'll probably need to figure out how to install that once I have my topic. 
+I'm sitting at a blank screen trying to decide where to begin. Usually, each project is extremely structured, but now I've got all this freedom, with too many options. I have to write a CLI Gem application from scratch, and that cursor just keeps blinking. I need to start somewhere, so I go with what is most familiar to me: English. Let's write out what I need to do and then "simply" change it into code. I know I need to create a cli that prompts a user with some sort of list, and let's them choose to view more information based on their input. I also know that I'm basing my project off a CLI Gem, so I'll probably need to figure out how to install that once I have my topic.  
 
-**Choosing A Topic **
+**Choosing a Topic**
 
 After creating and deleting at least three repositories, somehow I managed to stick with a project for a job I just quit. I worked way too many weekends at Smorgasburg (a food festival), where I repeatedly told customers the same information, so why not create a program that does the work for me.  
 
