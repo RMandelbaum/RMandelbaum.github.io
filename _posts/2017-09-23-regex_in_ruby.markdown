@@ -10,7 +10,7 @@ As I’m working my way through the Sinatra section of the program, I came acros
 I needed to code a method that incorporated logic to break down a word and translate it. Now, what ruby method allowed me to target certain data based on patterns? I flipped through my Procedural Ruby section of my notes, and landed on the answer. Regular Expressions, aka Regex. 
 
 
-# **What is Regex in Ruby?**
+**What is Regex in Ruby?**
 
 Regex is used to encode specific patterns for matching, searching, and substitution. 
 
@@ -18,7 +18,7 @@ Let’s say I have a long string and I only want to have the vowels returned to 
 
 Some common methods that are used with regex:
 
-# #scan
+#scan
 ```
 "hocus pocus".scan(/[aeiou]/)
  => ["o", "u", "o", "u"] 
@@ -26,7 +26,7 @@ Some common methods that are used with regex:
 
 This returns an array of all items in your string that match a given regex. 
 
-# #match
+#match
 
 ```
  "hocus pocus".match(/[aeiou]/)
@@ -37,7 +37,7 @@ This returns the first item in your string that matches a given regex as a Match
 
 
 
-# #grep
+#grep
 
 ```
 array = ["hocus pocus", "abacadabra", "pshhh"]
@@ -51,7 +51,7 @@ array.grep(/[aeiou]/)
 
  
 
-# **Regex meets the Piglatinizer**
+**Regex meets the Piglatinizer**
 
 Thanks to Wikipedia, I learned how Pig Latin works (a mere 10 years late), and wrote out my logic step by step for my Pig Latin method. 
 
