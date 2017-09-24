@@ -10,7 +10,7 @@ As I’m working my way through the Sinatra section of the program, I came acros
 I needed to code a method that incorporated logic to break down a word and translate it. Now, what ruby method allowed me to target certain data based on patterns? I flipped through my Procedural Ruby section of my notes, and landed on the answer. Regular Expressions, aka Regex. 
 
 
-## **What is Regex in Ruby?**
+# **What is Regex in Ruby?**
 
 Regex is used to encode specific patterns for matching, searching, and substitution. 
 
