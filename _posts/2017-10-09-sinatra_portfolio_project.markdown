@@ -26,8 +26,10 @@ After setting up all my files to configure my environment, gems, and rake, I was
  `rake db: create_migrations NAME=create_tasks `
  
 I then set up each model to have associations with each other: 
-* An employer `has_many :employees`, and an employee `belongs_to :employer`.
-* An employee `has_many :tasks`, and a task `belongs_to :employee`. 
+* Employer `has_many :employees`
+* Employee `belongs_to :employer`
+* Employee `has_many :tasks`
+* Task `belongs_to :employee`
 
 
 **Password Authentication with bcrypt**
