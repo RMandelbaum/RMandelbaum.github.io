@@ -17,7 +17,7 @@ The employer user could login to an account and post tasks for their employee, a
 
 **Models**
 
-After setting up all my files to configure my environment, gems, and rake, I was ready to create my database tables and models. I created three tables for my three class Models of Employer, Employee, and Task, and then used rake to autogenerate migrations for each table in my database. 
+After setting up all my files to configure my environment, gems, and rake, I was ready to create my database tables and models. I created three tables for my three classes of Employer, Employee, and Task, and then used rake to autogenerate migrations for each table in my database. 
 
  `rake db: create_migrations NAME=create_employers `
  
