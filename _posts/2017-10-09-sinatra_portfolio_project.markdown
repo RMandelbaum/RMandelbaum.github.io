@@ -55,7 +55,7 @@ This controller holds the routes to allow the employer to do the following:
 **EmployeeController and Views** 
 
 This controller holds the routes to allow the employee to do the following:
-1. Signup/Login--user sees a list of employers and can select their employer. This would set the employer_id to that employee.
+1. Signup/Login: User sees a list of employers and can select their employer. This would set the employer_id to that employee.
 2. View a list of tasks that was created by the employer. 
 3. Check the tasks that they completed, and submit the form. The tasks that were checked would be deleted.
 3. The list of tasks would be updated for both the employer and employee.
