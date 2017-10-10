@@ -64,6 +64,9 @@ This controller holds the routes to allow the employee to do the following:
 
 **App in Action**
 
-Once everything was set up correctly, it was really cool to see it in action. Tasks were being created, read, updated and deleted by two different users, and I can officially check building a Sinatra application off of my task list. 
+Once everything was set up correctly, it was really cool to see it in action. Tasks were being created, read, updated and deleted by two different users, and I can officially check building a Sinatra application off of my task list.
+
+https://github.com/RMandelbaum/sinatra-portfolio-project/tree/third-version
+
 
 
