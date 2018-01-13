@@ -20,8 +20,9 @@ Let’s take a look at a code example using a variable to translate what that me
 coffeeOrder = “1 Large Latte”;
 var coffeeOrder; 
 console.log(coffeeOrder);
+// “1 Large Latte”  
 ```
-`// “1 Large Latte”  `
+
 
 When first looking at this code, we may think that it will be undefined, as the variable is being declared after it is being assigned to a value. However, in JavaScript, the code is compiled, and any variable declaration is pushed to the top of the lexical scope. 
 
