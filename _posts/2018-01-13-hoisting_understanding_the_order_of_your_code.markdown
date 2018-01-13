@@ -23,7 +23,7 @@ console.log(coffeeOrder);
 // “1 Large Latte”  
 ```
 
-When first looking at this code, we may think that it will be undefined, as the variable is being declared after it is being assigned to a value. However, in Javascript, the code is compiled, and any variable declaration is pushed to the top of the lexical scope. 
+When first looking at this code, we may think that it will be undefined, as the variable is being declared after it is being assigned to a value. However, in JavaScript, the code is compiled, and any variable declaration is pushed to the top of the lexical scope. 
 
 Let’s play around with the order of this code to cement this a bit further. 
 
