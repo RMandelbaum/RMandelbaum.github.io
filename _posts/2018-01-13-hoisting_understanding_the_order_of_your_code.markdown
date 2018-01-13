@@ -20,8 +20,8 @@ Let’s take a look at a code example using a variable to translate what that me
 coffeeOrder = “1 Large Latte”;
 var coffeeOrder; 
 console.log(coffeeOrder);
-// “1 Large Latte”  
 ```
+`// “1 Large Latte”  `
 
 When first looking at this code, we may think that it will be undefined, as the variable is being declared after it is being assigned to a value. However, in JavaScript, the code is compiled, and any variable declaration is pushed to the top of the lexical scope. 
 
@@ -168,7 +168,7 @@ var Coffee = class {
 	  this.type = type;
 	}
 }
-//Uncaught TypeError: Coffee is not a constructor
+// Uncaught TypeError: Coffee is not a constructor
 ```
 
 Here we are getting a `TypeError` because our expression hasn’t been hoisted
@@ -189,10 +189,10 @@ var Drink = new Coffee();
    Drink.type = "latte";
    console.log(Drink)
 
-//Coffee {size: "large", type: "latte"}
-	//size: "large"
-	//type: "latte"
-	//__proto__: Object 
+// Coffee {size: "large", type: "latte"}
+	// size: "large"
+	// type: "latte"
+	// __proto__: Object 
 ```
 
 We’ve reviewed hoisting for variables, functions, and classes, and saw how expressions differ from declarations when it comes to functions and classes. Now go and test out your code and see how hoisting can work for you. 
