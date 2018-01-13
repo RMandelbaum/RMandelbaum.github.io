@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Hoisting: Understanding The Order of Your Code "
-date:       2018-01-13 20:18:29 +0000
+title:      "Hoisting: Understanding the Order of Your Code "
+date:       2018-01-13 15:18:29 -0500
 permalink:  hoisting_understanding_the_order_of_your_code
 ---
 
