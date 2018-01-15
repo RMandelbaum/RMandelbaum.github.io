@@ -5,7 +5,7 @@ date:       2018-01-13 15:18:29 -0500
 permalink:  hoisting_understanding_the_order_of_your_code
 ---
 
-I got it, I got it. I got it. [thump] I ain't got it. 
+I got it. I got it. I got it. [thump] I ain't got it. 
 
 When we talk about hoisting, I instantly picture that guy from *High Anxiety* trying his best to push up a variable declaration. Maybe I’ve spent too much time at my computer chugging caffeine, or maybe I’m onto something real. Either way, let’s talk about hoisting. 
 
@@ -114,7 +114,7 @@ Let’s review what a class declaration looks like in comparison to a class expr
 Class Declaration:
 
 ```
-class Coffee{
+class Coffee {
 	constructor(size, type) {
 	 this.size = size;
 	 this.type = type;
