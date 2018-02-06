@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Brief Overview of Redux Thunk  "
-date:       2018-02-06 05:18:53 +0000
+date:       2018-02-06 00:18:54 -0500
 permalink:  a_brief_overview_of_redux_thunk
 ---
 
@@ -36,7 +36,7 @@ export function fetchItems() {
 ```
 
 This function may seem correct, but we must keep in mind two things:
-1. This function will run asynchronously, which means it will try to return a value before all of our data is fetched. To work around this, we could add `.then() `to our `fetch()`, making our *fetch* function synchronous. However, this does not stop our overall function of * fetchItems* from returning asynchronously, and we just learned, Redux action creators do not support these asynchronous actions. 
+1. This function will run asynchronously, which means it will try to return a value before all of our data is fetched. To work around this, we could add `.then() `to our `fetch()`, making our *fetch* function synchronous. However, this does not stop our overall function of *fetchItems* from returning asynchronously, and we just learned, Redux action creators do not support these asynchronous actions. 
 
 2. Retrieving data takes time, and since this is Redux on top of JavaScript, we'd want to represent this time in our state.
 
