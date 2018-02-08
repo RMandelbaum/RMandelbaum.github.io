@@ -11,7 +11,7 @@ Anyone who is learning React with Redux knows that an explanation is anything bu
 
  I'm sure he meant this in a helpful nature, but all I hear is if you have to ask about it, you clearly aren't ready to use Redux at this level. And I love that answer.     
 
-For now, let's say we are sure we need Redux Thunk, and want to learn how it affects our Redux pattern in our React app. You may be thinking* Oh I know all about Thunk, it's that middleware that I use..,* and then move on. 
+For now, let's say we are sure we need Redux Thunk, and want to learn how it affects our Redux pattern in our React app. You may be thinking *Oh I know all about Thunk, it's that middleware that I use..,* and then move on. 
 
 **But What Exactly is Middleware?** 
 
