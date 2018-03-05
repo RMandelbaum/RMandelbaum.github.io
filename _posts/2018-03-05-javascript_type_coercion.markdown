@@ -39,17 +39,16 @@ typeof null // “object”
 ```
 Typeof null is considered to be a bug in JavaScript, since null should be “null”, yet it returned as an object 
 
-# Data-Type Coercion
+**Data-Type Coercion**
 
 Programming languages can either be strongly typed or loosely typed. JavaScript falls into the latter category, which means it allows for type coercion. JavaScript can change the data-type behind the scenes without your program crashing. Your program works, but keep in mind that the data-type has been altered. 
-
-**Explicit Type Coercion vs Implicit Type Coercion**
 
 Type coercion can occur explicitly or implicitly. 
 
 **Explicit** 
 
-```Number(“5”) // 5
+```
+Number(“5”) // 5
 
 String(5) // “5”
 
