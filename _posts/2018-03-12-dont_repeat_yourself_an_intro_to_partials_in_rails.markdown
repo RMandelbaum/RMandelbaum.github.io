@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Don't Repeat Yourself: An Intro to Partials in Rails"
-date:       2018-03-13 01:55:57 +0000
+date:       2018-03-12 21:55:57 -0400
 permalink:  dont_repeat_yourself_an_intro_to_partials_in_rails
 ---
 
@@ -22,8 +22,8 @@ views/posts/new.html.erb
 <%= form for (@post) do |f| %>
 	<div>
 	  <%= f.label :title %>
-    <%= f.text_field :title %>
-	  <%= f.label :body %>
+		<%= f.text_field :title %>
+		<%= f.label :body %>
 	  <%= f.text_area :body %>
 	  <%= f.submit %> 
 	</div>
