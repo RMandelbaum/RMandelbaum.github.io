@@ -19,14 +19,12 @@ views/posts/new.html.erb
 
 <h1> New Post Form </h1>
 
-<%= form for (@post) do |f| %>
-	<div>
-	  <%= f.label :title %>
-		<%= f.text_field :title %>
-		<%= f.label :body %>
-	  <%= f.text_area :body %>
-	  <%= f.submit %> 
-	</div>
+<%= form_for (@post) do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+    <%= f.submit %>
 <% end %> 
 ```
 
@@ -35,14 +33,12 @@ views/posts/edit.html.erb
 
 <h1> Edit Post Form </h1>
 
-<%= form for (@post) do |f| %>
-	<div>
-	  <%= f.label :title %>
+<%= form_for (@post) do |f| %>
+    <%= f.label :title %>
     <%= f.text_field :title %>
-	  <%= f.label :body %>
-	  <%= f.text_area :body %>
-	  <%= f.submit %> 
-	</div>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+    <%= f.submit %> 
 <% end %> 
 ```
 
@@ -51,14 +47,12 @@ Now, these two forms look almost identical, so we should use a partial to keep o
 ```
 views/posts/_form.html.erb
 
-<%= form for (@post) do |f| %>
-	<div>
-	  <%= f.label :title %>
+<%= form_for (@post) do |f| %>
+    <%= f.label :title %>
     <%= f.text_field :title %>
-	  <%= f.label :body %>
-	  <%= f.text_area :body %>
-	  <%= f.submit %> 
-	</div>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+    <%= f.submit %> 
 <% end %> 
 ```
 
