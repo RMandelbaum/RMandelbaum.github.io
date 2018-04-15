@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript Event Bubbling "
-date:       2018-04-15 18:23:17 +0000
+date:       2018-04-15 14:23:18 -0400
 permalink:  javascript_event_bubbling
 ---
 
@@ -17,20 +17,19 @@ Let's look at some code
 ﻿
 ```
 <div id =”grandparent-div”>
-     Grandparent
+Grandparent
     <div id = “parent-div”>
-		   Parent
+		Parent
         <div id ="child-div>
-          Child
+				Child
         </div>      
     </div>
 </div>
 ```
 
 To add an event listener to our elements with bubbling we use this syntax
-```
-	eventTarget.addEventListener(type, listener,[useCapture]);
-```
+	`eventTarget.addEventListener(type, listener,[useCapture]);`
+
 
 To add a click event to our divs we’d do something like this:
 ```
@@ -57,7 +56,8 @@ When we click on the child div, we will see an output:
 
 If we clicked on just the grandparent, we’d only see this output: 
 
-`<“I’m the grandparent”` 
+```<“I’m the grandparent”
+```
 
 We put `false`, which is the default for useCapture. If we set it to `true`, our event would enter a capturing phase, where the event trickles down from parent to child, rather than bubble up from child to parent. 
 
