@@ -19,9 +19,9 @@ Let's look at some code
 <div id =”grandparent-div”>
 Grandparent
     <div id = “parent-div”>
-		Parent
+ Parent
         <div id ="child-div>
-				Child
+  Child
         </div>      
     </div>
 </div>
@@ -46,7 +46,7 @@ $(“#grandparent-div”).addEventListener(“click”, function (event) {
 	}, false); 
 ```
 
-When we click on the child div, we will see an output:
+When we click on the child div, we will see this output:
 
 ```
 <“I'm the child”
@@ -56,7 +56,8 @@ When we click on the child div, we will see an output:
 
 If we clicked on just the grandparent, we’d only see this output: 
 
-```<“I’m the grandparent”
+```
+<“I’m the grandparent”
 ```
 
 We put `false`, which is the default for useCapture. If we set it to `true`, our event would enter a capturing phase, where the event trickles down from parent to child, rather than bubble up from child to parent. 
