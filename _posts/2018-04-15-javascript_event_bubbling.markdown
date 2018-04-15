@@ -17,11 +17,11 @@ Let's look at some code
 ﻿
 ```
 <div id =”grandparent-div”>
-Grandparent
+  Grandparent
     <div id = “parent-div”>
- Parent
+      Parent
         <div id ="child-div>
-  Child
+           Child
         </div>      
     </div>
 </div>
