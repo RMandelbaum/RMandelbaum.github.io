@@ -21,13 +21,13 @@ I spend a huge chunk of my time commuting, and wanted a way to use that time to 
 2. [SQL Data Partners Podcast](http://player.fm/series/sql-data-partners-podcast)
 3. [Dear SQL DBA](http://player.fm/series/dear-sql-dba)
 
-**JavaScript **
+**JavaScript**
 
 1. [JavaScript Jabber](http://player.fm/series/javascript-jabber-1445914)
 2. [JS Party ](http://changelog.com/jsparty )
 3. [JavaScript Air](http://player.fm/series/javascript-air-97950)
 
-**React **
+**React**
 
 1. [ The React Podcast](http://changelog.com/reactpodcast)
 2. [React Native Radio](http://devchat.tv/react-native-radio)
