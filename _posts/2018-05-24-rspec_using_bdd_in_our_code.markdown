@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "RSpec: Using BDD In Our Code"
-date:       2018-05-24 21:43:42 +0000
+date:       2018-05-24 17:43:43 -0400
 permalink:  rspec_using_bdd_in_our_code
 ---
 
@@ -9,7 +9,7 @@ permalink:  rspec_using_bdd_in_our_code
 
 RSpec is a great way to test your code in Ruby, and implement BDD (behavior-driven development). BDD was built on top of Test Driven Development (TDD) in order to allow us to develop tests that are based on the specifications of system behavior. Our tests cases are still written in the most concise way, but now we can be even clearer about how the code should behave.
 
-Let’s look at an example of BDD:
+Let’s look at an example of BDD
 ```
 describe Order do
   describe "#submit" do
@@ -47,7 +47,7 @@ Now that we’ve seen a bit of BDD, we can explore more of RSpec to help us buil
 
 First we set up RSpec by adding `gem “rspec”` to our Gemfile, and run `bundle install` in our terminal.
 
-Next we will run ` mkdir spec` in our terminal to make a directory folder where we will store our “specs".
+Next we will run `mkdir spec` in our terminal to make a directory folder where we will store our “specs".
 
 ```
 # spec/add_strings_spec.rb 
@@ -58,14 +58,14 @@ end
 
 We want to describe the behavior, so we always put a `describe` block in our specs. 
 
-Let’s run our tests:
+Let’s run our tests
 
 `bundle exec rspec`
 
 
 We haven’t written any code yet, so our test will fail. You should see `uninitialized constant AddString (NameError)`. 
 
-Create a new directory where we will store our classes:
+Create a new directory where we will store our classes
 
 `mkdir lib `
 
@@ -109,10 +109,10 @@ end
 
 Let’s break this code down:
 
-* We use another `describe` block for our add method. We prefix class methods with a “.” and an instance method with a “#”. 
+* We use another `describe` block for our add method. We prefix class methods with “ . ” and an instance method with  “#”. 
 * We use a `context` block to describe a context where this test should pass. 
 * We use an `it` block to describe a specific example or “test case”. 
-* We use `expect(...).to` or `expect(...).not_to` to define expected outcomes. `Eql` is then our matcher to fully define an expectation of our piece of code. 
+* We use `expect(...).to` or `expect(...).not_to` to define expected outcomes. `eql` is then our matcher to fully define an expectation of our piece of code. 
 
 
 If we run our spec, we’ll get a new failure, `NoMethodError`. So we must create that method. 
@@ -205,10 +205,10 @@ class AddString
 
   def self.add(input)
     if input.empty?
-       0
+      0
     else
-       numbers = input.split(",").map { |num| num.to_i }
-       numbers.inject(0) { |sum, number| sum + number }
+      numbers = input.split(",").map { |num| num.to_i }
+      numbers.inject(0) { |sum, number| sum + number }
     end
   end
 end
