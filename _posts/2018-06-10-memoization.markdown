@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Memoization"
-date:       2018-06-10 23:33:10 +0000
+date:       2018-06-10 19:33:11 -0400
 permalink:  memoization
 ---
 
@@ -13,9 +13,9 @@ Let’s use Memoization to speed up a Fibonacci function.
 ```
 function memoize(fn) {
  const cache = {};
- return function(...args) {
+ return function (...args) {
      if (cache[args]) {
-        return cache[args]
+        return cache[args];
     } 
 
  const result = fn.apply(this, args);
@@ -29,9 +29,9 @@ function fib(n) {
  if (n < 2) {
   return n; 
  }
- return fib(n-1) + fib(n-2)
+ return fib(n-1) + fib(n-2);
 } 
 
-fib = memoize(fib) 
+fib = memoize(fib); 
 ```
 
